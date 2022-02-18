@@ -128,6 +128,8 @@
     const floor6TR = document.getElementById('floor6TR');
     const floor7 = document.getElementById('floor7');
     const floor7TR = document.getElementById('floor7TR');
+      const floor7CR = document.getElementById('floor7CR');
+    
 
     floor4.addEventListener('mouseover', () => { floor4TR.style.backgroundColor = "#00fa83"; floor4.style.fill = "#00fa83"; });
     floor4.addEventListener('mouseleave', () => { floor4TR.style.backgroundColor = "white"; floor4.style.fill = "white"; });
@@ -150,6 +152,7 @@
     floor7.addEventListener('mouseleave', () => { floor7TR.style.backgroundColor = "white"; floor7.style.fill = "white"; });
     floor7TR.addEventListener('mouseover', () => { floor7TR.style.backgroundColor = "#00fa83"; floor7.style.fill = "#00fa83"; });
     floor7TR.addEventListener('mouseleave', () => { floor7TR.style.backgroundColor = "white"; floor7.style.fill = "white"; });
+    floor7CR.addEventListener('click', () => { floor7CR.style.display = 'none'; });
 
 
 </script>
